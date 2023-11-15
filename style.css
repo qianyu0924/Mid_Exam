@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*:before,:after{
+	font-family: verdana;
+}
+
+.box{
+    width: 1920px;
+    height: 80px;
+    background: #AA0601;
+    display: flex;
+    justify-content: space-around;
+}
+.box img{
+    width: 80px;
+    height: 48.57px;
+    margin-top: 16px;
+}
+.menu{
+    display: flex;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+.menu li{
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+}
+.box2 img{
+    width: 1920px;
+    height: 787px;
+    margin-top: 16px;
+    position: relative;
+}
+.box2 .header{
+    width: 600px;
+    height: 200px;
+    margin-right: 311px;
+    position: absolute;
+    top: 296px;
+    right: 311px;
+    
+}
+.box2 .header h1{
+    font-size: 36px;
+    color: #650300;
+    text-align: right;
+}
+.box2 .header h2{
+    font-size: 64px;
+    color: #650300;
+    font-weight: bold;
+    text-align: right;
+    padding-top:20px;
+    padding-bottom: 20px; 
+}
+.box2 .header span{
+    text-align: right;
+    font-size: 20px;
+    background: #aa0601;
+    color: #fff;
+    padding: 10px;
+}
+h3{
+    width: 528px;
+    height: 72px;
+    margin: 0 auto;
+    margin-top: 80px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #650300;
+    text-align: center;
+
+}
+.content{
+    margin-bottom: 20px;
+    width: 1500px;
+    margin: 0 auto;
+}
+  
+.thing{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.thing-item{
+    width: 300px;
+}
+.thing img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 83.83px;
+    height: 83.83px;
+}
+.thing h4{
+    text-align: center;
+    font-size: 24px;
+    color: #650300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.thing p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 100px;
+}
+
+.content2{
+    margin-bottom: 20px;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.glass{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.glass-item{
+    width: 400px;
+}
+.glass img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 416px;
+    height: 416px;
+}
+.glass h4{
+    width: 416px;
+    text-align: center;
+    font-size: 48px;
+    color: #650300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.box3 img{
+    width: 1920px;
+    height: 787px;
+    margin-top: 16px;
+    position: relative;
+}
+
+.box3 .header h1{
+    position: absolute;
+    top: 80px;
+    right: 805px;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+}
